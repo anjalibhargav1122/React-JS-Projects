@@ -1,0 +1,46 @@
+.modal {
+    width: 500px;
+    height: 500px;
+    position: fixed ;
+    left: 50% ;
+    top: -500px;
+    transform: translate(-50%, -50%) !important;
+    background-color: black;
+    transition:  1s;
+}
+
+.modal span {
+    position: absolute;
+    font-size: 30px;
+    right: 0px;
+ 
+    cursor: pointer;
+}
+
+.show {
+    top: 50% !important;
+}
+
+.qes {
+    background-color: rgba(0, 0, 0, 0.893);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.tra {
+    transform: scaleY(0);
+    transition: 0.4s;
+    transform-origin: top;
+    height: 0px;
+}
+
+.ans {
+    margin: 10px !important;
+    transform: scaleY(1) !important;
+    height: auto !important;
+}
+
+.pls {
+    right: 10px;
+    top: 5px;
+}
